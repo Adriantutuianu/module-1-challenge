@@ -5,32 +5,32 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* set background color for body */
 }
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px; /*set padding to 20px */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*set font for header */
+    background-color: #2a607c; /*set background color for header */
+    color: #ffffff; /*set color for header */
 }
-
+/*set display and font size for h1 inside header */
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 48px; /*set font size*/
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* set logo color  */
 }
-
+/*start nav bar style  */
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 15px; /*set padding to 15px */
+    margin-right: 20px; /*set margin right to 20px */
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*set font */
+    font-size: 20px; /* set font size*/
+} 
 
 header nav ul {
     list-style-type: none;
@@ -38,43 +38,108 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; /*set margin left to 25 px */
 }
-
+/*set color for nav bar text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /*set font size to 16px */
 }
+/*end nav bar style */
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /*set height of image to 800px */ 
+    width: 100%; /*set width of image to 100% */
+    margin-bottom: 25px; /*set margin bottom to 25px */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*added background image */
+    background-size: cover; /*set background size : cover */
+    background-position: center; /*set background position to center */
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+.content {
+    width: 75%; /*set width of content to 75% */
+    display: inline-block;
+    margin-left: 20px; /*set margin left to 20px */
+}
+/*start style section search engine optimization */
+.search-engine-optimization {
+    margin-bottom: 20px; 
+    padding: 50px; 
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*end style section search engine optimization */
+
+/*start style section online reputation management */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/*end style section online reputation management */
+
+/*start style section social media marketing */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*end style section social media marketing */
+
+/*align image in online reputation management */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/*align image in search engine optimization */
+.float-left {
+    float: left;
+    margin-right: 25px; 
 }
 
+/*start aside benefits style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,68 +198,17 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*end aside benefits style */
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*start style footer */
 footer {
-    padding: 10px;
+    padding: 10px; /*set padding for footer to 10px */
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*set fot for footer */
+    text-align: center; /*aligned text to center in footer */
 }
 
 footer h4 {
     font-size: 20px;
 }
+/*end style footer */
