@@ -16,7 +16,7 @@ N/A
 ## Usage 
 
 
-![Horiseon](assets/images/01-html-css-git-challenge-demo.png)
+![Horiseon](assets/01-html-css-git-challenge-demo.png)
 
 
 ## Credits
