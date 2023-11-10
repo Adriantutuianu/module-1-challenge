@@ -15,9 +15,8 @@ N/A
 
 ## Usage 
 
-```md
+
 ![Horiseon](assets/images/01-html-css-git-challenge-demo.png)
-```
 
 
 ## Credits
